@@ -33,7 +33,7 @@ The sorting algorithms analyzed in this project differ significantly in their ap
 </table>
 
 ## Big-O notation of the 3 used sorting algorithms
-  Figure 2 contains the Big-O notation for each case of the sorting algorithms, namely: SelectionSort, BinaryInsertionSort, and Heapsort.
+  Fig. 2. contains the Big-O notation for each case of the sorting algorithms, namely: SelectionSort, BinaryInsertionSort, and Heapsort.
   
 <table align="center">
   <tr>
@@ -44,6 +44,68 @@ The sorting algorithms analyzed in this project differ significantly in their ap
   <tr>
     <td align="center">
       <em>Fig. 2. Big-O notation of the cases for each algorithm </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+## Comparison of sorting times of the algorithms with 1000 numbers
+  As shown in Table 1 and Fig. 3, the BinaryInsertionSort and HeapSort algorithms exhibited equivalent performance, both in terms of speed and smaller time variation. In contrast, the SelectionSort algorithm stood out as the slowest, also showing the highest time variation. Ten attempts were made for each algorithm to ensure accuracy in the results.
+  
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 3.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Table 1. Table comparing the algorithms with 1000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 4.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Fig. 3. Line chart comparing the algorithms sorting 1000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+## Comparison of sorting times of the algorithms with 5000 numbers
+  According to Table 2 and Fig. 4, the HeapSort algorithm was the fastest and showed the smallest time variation. On the other hand, the SelectionSort and BinaryInsertionSort algorithms had identical average times, both with 7 ms. Ten attempts were made for each algorithm to ensure accuracy in the results.
+  
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 5.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Table 2. Table comparing the algorithms with 5000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 6.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Fig. 4. Line chart comparing the algorithms sorting 5000 numbers. </em>
     </td>
   </tr>
 </table>
