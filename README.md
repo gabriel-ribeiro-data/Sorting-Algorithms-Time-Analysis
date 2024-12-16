@@ -162,7 +162,7 @@ The sorting algorithms analyzed in this project differ significantly in their ap
 <table align="center">
   <tr>
     <td align="center">
-      <img src='/Images/Image 10.png' width="900">
+      <img src='/Images/Image 10.png' width="1100">
     </td>
   </tr>
   <tr>
