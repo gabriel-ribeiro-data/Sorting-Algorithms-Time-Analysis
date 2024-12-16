@@ -32,7 +32,7 @@ The sorting algorithms analyzed in this project differ significantly in their ap
   </tr>
 </table>
 
-## Big-O notation of the 3 used sorting algorithms
+## Big-O notation of the 3 sorting algorithms used
   Fig. 2. contains the Big-O notation for each case of the sorting algorithms, namely: SelectionSort, BinaryInsertionSort, and Heapsort.
   
 <table align="center">
@@ -69,7 +69,7 @@ The sorting algorithms analyzed in this project differ significantly in their ap
 <table align="center">
   <tr>
     <td align="center">
-      <img src='/Images/Image 4.png' width="600">
+      <img src='/Images/Image 4.png' width="800">
     </td>
   </tr>
   <tr>
@@ -100,12 +100,74 @@ The sorting algorithms analyzed in this project differ significantly in their ap
 <table align="center">
   <tr>
     <td align="center">
-      <img src='/Images/Image 6.png' width="600">
+      <img src='/Images/Image 6.png' width="800">
     </td>
   </tr>
   <tr>
     <td align="center">
       <em> Fig. 4. Line chart comparing the algorithms sorting 5000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+## Comparison of sorting times of the algorithms with 10000 numbers
+ As observed in Table 3 and Fig. 5, the HeapSort algorithm was significantly faster than the others, also showing the smallest time variation. Next, the BinaryInsertionSort algorithm recorded an average time of 25 ms, while the SelectionSort had the highest average time, with 38 ms. Ten attempts were made for each algorithm to ensure accuracy in the results.
+  
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 7.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Table 3. Table comparing the algorithms with 10000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 8.png' width="800">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Fig. 5. Line chart comparing the algorithms sorting 10000 numbers. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+## Comparison of the average time of all algorithms
+ Therefore, the analysis of Table 4 and Fig. 6. allows us to conclude that HeapSort was the fastest algorithm in all scenarios, with the best performance and the smallest time variation. BinaryInsertionSort ranked second, while SelectionSort was the slowest, with a particularly pronounced time difference in inputs of 10,000 elements. Ten attempts were made for each algorithm to ensure accuracy in the results.
+  
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 9.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Table 4. Table comparing the average time of all algorithms. </em>
+    </td>
+  </tr>
+</table>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 10.png' width="900">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em> Fig. 6. Line chart comparing the average time of all algorithms. </em>
     </td>
   </tr>
 </table>
@@ -121,34 +183,40 @@ The sorting algorithms analyzed in this project differ significantly in their ap
 
 ## References
 
-- [1] BORGES, Izabella B. F. Types of Cryptography: How They Work and Their Importance. Clicksign, Barueri, Apr. 17, 2023. Available at: clicksign.com.br. Accessed on: Oct. 8, 2023.
+- [1] AUDDY, Amit. Binary Insertion Sort. GeeksForGeeks, Jan. 31, 2023. Available at: https://www.geeksforgeeks.org/binary-insertion-sort/. Accessed on: Sept. 30, 2024.
 
-- [2] Caesar Cipher. Wikipedia, 2023. Available at: wikipedia.org. Accessed on: Sept. 26, 2023.
+- [2] CALAZANS, Luiz. Understanding Heapsort. Medium, Sept. 24, 2023. Available at: https://luizcalazans.medium.com/entendendo-o-heapsort-95ec851dcdbf. Accessed on: Oct. 10, 2024.
+  
+- [3] CHATTOPADHYAY, Agnishom. et al. Binary Heap. Brilliant, [n.d.]. Available at: https://brilliant.org/wiki/binary-heap/. Accessed on: Oct. 10, 2024.
+  
+- [4] CHHABRA, Sahil. Recursive Insertion Sort. Sept. 13, 2023. Available at: https://www.geeksforgeeks.org/recursive-insertion-sort/. Accessed on: Sept. 30, 2024.
+  
+- [5] CORMEN, T. H. et al. Algorithms: Theory and Practice. 3rd ed. Rio de Janeiro: Elsevier, 2009.
+ 
+- [6] DicionarioTec. Big-O Notation. 2020. Available at: https://dicionariotec.com/posts/notacao-do-big-o. Accessed on: Sept. 24, 2024.
 
-- [3] Vigenère Cipher. Wikipedia, 2023. Available at: wikipedia.org. Accessed on: Sept. 26, 2023.
+- [7] freeCodeCamp. Sorting Algorithms Explained with Examples in JavaScript, Python, Java, and C++. freeCodeCamp, Dec. 4, 2019. Available at: https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/. Accessed on: Sept. 4, 2024.
 
-- [4] Confederate Cipher Disc. Crypto Museum, 2023. Available at: cryptomuseum.com. Accessed on: Oct. 11, 2023.
+- [8] GUPTA, Yash. SelectionSort. [n.d.]. Available at: https://www.naukri.com/code360/problems/selection-sort_624469?leftPanelTabValue=PROBLEM. Accessed on: Sept. 24, 2024.
 
-- [5] Discover What Are the Types of Cryptography. DocuSign, Sept. 30, 2022. Available at: docusign.com.br. Accessed on: Oct. 7, 2023.
+- [9] KNUTH, Donald. The Art of Computer Programming, Volume 3: Sorting and Searching. 3rd ed. Boston: Addison-Wesley, 1997.
 
-- [6] DONDA, Daniel. The Mathematics of the Vigenère Cipher. Daniel Donda, Aug. 31, 2010. Available at: danieldonda.com. Accessed on: Oct. 8, 2023.
+- [10] LAMARCA, A.; LADNER, R. E. The Influence of Caches on the Performance of Sorting. Journal of Algorithms, v. 31, n. 1, p. 66-104, 1997.
 
-- [7] DOS REIS, Fábio. Cryptography – Vigenère Cipher. Bóson Treinamentos, Sept. 6, 2016. Available at: bosontreinamentos.com.br. Accessed on: Oct. 8, 2023.
+- [11] LAFORE, Robert. Data Structures & Algorithms in Java. 2nd ed. Indianapolis: Sams Publishing, 2002.
 
-- [8] FIELDS, Brandon T. Figure 1. Vigenère Table. 2011. Digital image. Available at: wikipedia.org. Accessed on: Oct. 26, 2023.
+- [12] MATHIAS, Stefano B. B. R. P. Algorithm Complexity – Data Structures LECTURE 11. 2024. 26 slides. Lecture presented in the Computer Science course, Institute of Exact Sciences and Technology, Universidade Paulista, Dutra Campus, São José dos Campos.
 
-- [9] JAMAL, Taha. The Vigenère Cipher: A Story of Cryptography and Intrigue. Museum, Jan. 25, 2023. Available at: medium.com. Accessed on: Oct. 11, 2023.
+- [13] MOORE, Karleigh. et al. Sorting Algorithms. Brilliant, [n.d.]. Available at: https://brilliant.org/wiki/sorting-algorithms/. Accessed on: Sept. 4, 2024.
 
-- [10] KHANDURI, Ayush. Vigenère Cipher. Geeks for Geeks, May 29, 2023. Available at: geeksforgeeks.org. Accessed on: Sept. 26, 2023.
+- [14] PIERRI, Renato. What is the Difference Between Heap and Stack? Jul. 16, 2022. Available at: https://nets-nuts.com.br/qual-e-a-diferenca-entre-heap-e-stack/. Accessed on: Oct. 10, 2024.
 
-- [11] What is Data Encryption? Definition and Explanation. Kaspersky, 2023. Available at: kaspersky.com.br. Accessed on: Oct. 7, 2023.
+- [15] PRESTES, Edson. Algorithm Complexity. [n.d.]. 22 slides. Lecture, Institute of Informatics, Federal University of Rio Grande do Sul. Available at: https://www.inf.ufrgs.br/~prestes/Slides/aula1.pdf. Accessed on: Sept. 23, 2024.
 
-- [12] What is Cryptography? AWS Amazon, 2023. Available at: aws.amazon.com. Accessed on: Oct. 7, 2023.
+- [16] RUSLAN. Calculating Time Complexity of an Algorithm: What You Should Know. Intersog, Oct. 9, 2020. Available at: https://intersog.com/blog/strategy/algorithm-complexity-estimation-a-bit-of-theory-and-why-it-is-necessary-to-know/. Accessed on: Sept. 24, 2024.
 
-- [13] ROBOT, Marvin T. How a 17th Century Cipher Becomes an Unbreakable Cryptography? Kaspersky, Sept. 21, 2015. Available at: kaspersky.com.br. Accessed on: Sept. 26, 2023.
+- [17] SEDGEWICK, Robert; WAYNE, Kevin. Algorithms. 4th ed. Boston: Addison-Wesley, 2011.
 
-- [14] SILVA, Bárbara L. Cryptography and Codes: See the Main Ways to Hide Information Used Throughout History. QueroBolsa, Aug. 24, 2023. Available at: querobolsa.com.br. Accessed on: Sept. 26, 2023.
+- [18] SHARMA, Akash. Heap Sort. [n.d.]. Available at: https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/. Accessed on: Oct. 10, 2024.
 
-- [15] SIMMONS, Gustavus J. Vigenère Cipher. Britannica, 2023. Available at: britannica.com. Accessed on: Sept. 26, 2023.
-
-- [16] Vigenère Cipher. Wikipedia, 2023. Available at: wikipedia.org. Accessed on: Oct. 11, 2023.
+- [19] VIANA, Daniel. Discover the Main Sorting Algorithms. TreinaWeb, Jan. 2017. Available at: https://www.treinaweb.com.br/blog/conheca-os-principais-algoritmos-de-ordenacao. Accessed on: Sept. 4, 2024.
