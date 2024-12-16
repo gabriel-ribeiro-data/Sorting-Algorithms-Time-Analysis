@@ -1,0 +1,11 @@
+Falta colocar um while que deixe o usuário em um loop.
+
+Perguntar ao usuário qual operação deseja fazer, com qual lista.
+Lembrete: deve fornecer uma estimativa do tempo de execução das listas antes.
+Exemplo: Escolheu HeapSort, vai dar a estimativa do tempo das 3 listas (leitura do txt).
+
+Utilize a classe funções para verificar entrada de usuário e dar auxilio para a classe principal, pode utilizar de suporte a APS do semestre passado.
+
+
+Objetivo:
+O programa solicita a lista e organização que o usuário quer, captura o tempo anterior de tal organização, sobrescreve o tempo atual.
