@@ -12,6 +12,9 @@ Additionally, the aim is to provide a clear and practical implementation, enabli
 
 The sorting algorithms analyzed in this project differ significantly in their approach and time complexity. SelectionSort, a simple comparison-based algorithm, iteratively selects the smallest element and places it in its correct position. BinaryInsertionSort optimizes the insertion process by using binary search to determine the position of each element. HeapSort, on the other hand, leverages the heap data structure to efficiently sort elements. By comparing their performance, this project provides valuable insights into how algorithmic design impacts computational efficiency.
 
+## Necessary preparation before running the program
+  Before running the program, go to line 24 of the JavaApplication2 class. Locate the declaration: String pastaArquivo = "INSERT PATH HERE" and replace "INSERT PATH HERE" with the path to the "PastaTxtAPS" folder.
+
 ## Big-O notation
   The Big-O notation represents the upper bound of the execution time, indicating the complexity of the worst case, that is, the one containing the largest number of instructions. The order of Big-O terms is given by: O(1) < O(log n) < O(Sqrt(n)) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n). The larger the term, the worse the algorithm's efficiency will be, and the greater the number of instructions, as shown in the graph in Fig. 1.
 
@@ -23,48 +26,28 @@ The sorting algorithms analyzed in this project differ significantly in their ap
   </tr>
   <tr>
     <td align="center">
-      <em>Fig. 1. Big O notation;
+      <em>Fig. 1. Big-O notation;
       Source: DicionarioTec (2024)</em>
     </td>
   </tr>
 </table>
 
-## Vulnerabilities and Weaknesses
-  One of the main weaknesses of the Vigenère cipher arises from the fact that it does not conceal the letter frequencies in the original text. If an attacker knows or suspects that the Vigenère cipher is being used and can determine the length of the key, they can perform frequency analysis on groups of encrypted letters to identify patterns, which will reveal information about the key.
-
-  Furthermore, there is another significant issue with the Vigenère cipher concerning the size of the key. If the key is too short relative to the length of the original text, the cipher becomes more vulnerable to brute force attacks, as there are fewer possible variations of the key to be tested.
-
-## Running Application
-  After opening the program, the user is presented with two options and must choose one of them, with the first option being “1 - Encrypt” and the second option “2 - Decrypt.” The user needs to enter “1” or “2” respectively to indicate the desired operation. If the user makes an invalid entry, the message “Please enter only '1' or '2':” will appear, repeating the two options above until a valid entry is made. Fig. 2 below illustrates the described situation.
+## Big-O notation of the 3 used sorting algorithms
+  Figure 2 contains the Big-O notation for each case of the sorting algorithms, namely: SelectionSort, BinaryInsertionSort, and Heapsort.
   
 <table align="center">
   <tr>
     <td align="center">
-      <img src='/Images/Image 2.png' width="300">
+      <img src='/Images/Image 2.png' width="600">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <em>Fig. 2. User's choice between encrypting and decrypting </em>
+      <em>Fig. 2. Big-O notation of the cases for each algorithm </em>
     </td>
   </tr>
 </table>
 <br>
-
-  Fig. 3 shows the complete operation of the application running, including input prompts and the output results generated during the encryption and decryption processes. This illustration provides a clear overview of how the application functions in real-time, demonstrating its capabilities and user interaction through console inputs and outputs.
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src='/Images/Image 3.png' width="500">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <em>Fig. 3. Example of the Application Running </em>
-    </td>
-  </tr>
-</table>
 
 ## Authors
 
