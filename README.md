@@ -2,7 +2,7 @@
 # Time Analysis of Sorting Algorithms in Java: SelectionSort, BinaryInsertionSort, and Heapsort.
 ----
 
-### This repository contains a project with the time analysis of sorting algorithms implemented in Java, created during my undergraduate studies in Computer Science. Please note that the language of the implementation is in the authors' native language (Brazilian Portuguese).
+### This repository contains a project with the time analysis of sorting algorithms implemented in Java, created during my Bachelor's studies in Computer Science. Please note that the language of the implementation is in the authors' native language (Brazilian Portuguese).
 ----
 
 ## Introduction
